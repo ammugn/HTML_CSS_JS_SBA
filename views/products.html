@@ -4,9 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css"/>
+    <script src="https://kit.fontawesome.com/a41831aa8e.js" crossorigin="anonymous"></script>
+    <script src="../js/products.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+    <title>🌶️Spice Route</title>
 </head>
-<body>
-    Products Page
-</body>
+<body onLoad="showSlides();">
+    <nav class="navbar">
+        <div class="navbar__container">
+            <!-- <i class="fa-solid fa-pepper-hot"></i>-->
+          <a href="home.html" id="navbar__logo">SPICE ROUTE</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+           <!---->   <a href="home.html" class="navbar__links">HOME</a>
+            </li>
+            <li class="navbar__item">
+              <a href="aboutus.html" class="navbar__links">ABOUT US</a>
+            </li>
+            <li class="navbar__item">
+              <a href="products.html" class="selected-item">PRODUCTS</a>
+            </li>
+            <li class="navbar__item">
+              <a href="contactus.html" class="navbar__links">CONTACT US</a>
+            </li>
+            <li class="navbar__btn">
+              <a href="/index.html" class="button">SIGN OUT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="main__container">
+          <div class="main__content">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1/ 6</div>
+                <img src="../images/mixed-savoury.jpg" style="width:100%">
+                <div class="text">
+                  <h2>Mixed Savoury Platter</h2>
+                <p>A Collection of all your favorite savouries.Perfect for parties.</p>
+                </div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="../images/delish-091621-samosas-04-jg-1632847515.jpg" style="width:100%">
+                <div class="text"><h2>Samosas</h2>
+                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="../images/CheesyMonkeyBread.jpg" style="width:100%">
+                <div class="text"><h2>Cheesy Monkey Bread</h2>
+                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="../images/Savory_Snacks.jpg" style="width:100%">
+                <div class="text"><h2>Savoury Tidbits</h2>
+                  <p>Bite size savoury snacks.</p></div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">5/ 6</div>
+                <img src="../images/Turmeric_Powder_1024x.webp" style="width:100%">
+                <div class="text"><h2>Organic Turmeric Powder</h2>
+                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">6/ 6</div>
+                <img src="../images/Homemade-Taco-Seasoning-Spice-Mix.jpg" style="width:100%">
+                <div class="text"><h2>Taco-Seasoning-Spice-Mix</h2>
+                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
+              </div>
+              
+              
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+              </div>
+
+
+
+           </div>
+           </div>
+           </div>
+
+    
+    
+    </body>
 </html>

@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=Hi, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/home.css"/>
-    <title>🍲Spice Route</title>
+    <script src="https://kit.fontawesome.com/a41831aa8e.js" crossorigin="anonymous"></script>
+    <script src="../js/home.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+    <title>🌶️Spice Route</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/" id="navbar__logo">SPICE ROUTE</a>
+          <!-- <i class="fa-solid fa-pepper-hot"></i>-->
+        <a href="home.html" id="navbar__logo">SPICE ROUTE</a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -18,16 +31,16 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="/" class="navbar__links">HOME</a>
+          <a href="home.html" class="selected-item">HOME</a>
           </li>
           <li class="navbar__item">
-            <a href="/" class="navbar__links">ABOUT US</a>
+            <a href="aboutus.html" class="navbar__links">ABOUT US</a>
           </li>
           <li class="navbar__item">
-            <a href="/" class="navbar__links">PRODUCTS</a>
+            <a href="products.html" class="navbar__links">PRODUCTS</a>
           </li>
           <li class="navbar__item">
-            <a href="/" class="navbar__links">CONTACT US</a>
+            <a href="contactus.html" class="navbar__links">CONTACT US</a>
           </li>
           <li class="navbar__btn">
             <a href="/index.html" class="button">SIGN OUT</a>
@@ -35,5 +48,22 @@
         </ul>
       </div>
     </nav>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <p>Welcome <span id="user-name" name="user-name"></span> !</p><br><br>
+          <h1>SPICE ROUTE </h1>
+          <h2>HOME MADE SAVOURIES</h2>
+          <p>Chase the flavors...</p>
+          
+        </div>
+        <div class="main__img--container">
+          
+          <iframe src="https://giphy.com/embed/5T0kyezV83pqrZOMPf" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/foodloversunite-delicious-samosa-dip-5T0kyezV83pqrZOMPf">
+            
+          </a></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

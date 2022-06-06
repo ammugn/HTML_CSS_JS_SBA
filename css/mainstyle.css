@@ -1,15 +1,36 @@
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  
+}
 body{
     background-image :url("/images/spices-bg2.jpg");   
 }
 .container{
+    display:block;
     padding-top: 300px;
     
 }
 h1{
-color: aliceblue;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
-
+}
+.main-logo{
+background-color: #ff8177;
+background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+background-size: 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+display: block;
+align-items: center;
+cursor: pointer;
+text-decoration: none;
+font-size: 5rem;
+white-space: nowrap;
+margin: 0 auto;
 }
 a:link, a:visited {
     background-color: #887d7d;
@@ -22,14 +43,31 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: red;
   }
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #f77062;
+    color: #fff;
+    padding:10px;
+    font-size: 1.5rem;
+    width: 185px;
+  }
+  .submit:hover {
+    background: #6ca27f;
+  }
   .form-container {
-    background-color: #d4cbca;
+    
     text-align: center;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
     max-width: 300px;
-    padding:50px;
+    padding:80px;
   }
 footer
  {
@@ -43,3 +81,38 @@ footer
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
  }
+ @media screen and (max-width: 960px) {
+  .container{
+    display: block;
+    padding-top: 100px;
+    
+} .form-container {
+    
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 400px;
+  padding:100px;
+}
+label{
+  padding:10px;
+}
+.main-logo{
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: block;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 3.5rem;
+  white-space: nowrap;
+  margin: 0 auto;
+
+ }
+}
