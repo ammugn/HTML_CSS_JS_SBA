@@ -1,24 +1,4 @@
-/*function ValidateEmail(inputText)
-{
-var uname=document.getElementById('uname').value;
-sessionStorage.setItem("UNAME",uname);
-var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-if(inputText.value.match(mailformat))
-{
-alert("Valid email address!");
-//Login();
-document.loginform.email.focus();
-return true;
-}
-else
-{
-alert("You have entered an invalid email address!");
-document.getElementById('email').innerHTML=" ";
-document.loginform.email.focus();
-return false;
-}
-}
-*/
+
 function ValidateEmail(inputText){
    
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -36,5 +16,11 @@ function ValidateEmail(inputText){
     return false;
        }
    }
+
+   
+function Register(inputText){
+
+
+}
 
   

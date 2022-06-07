@@ -1,122 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/home.css"/>
-    <script src="https://kit.fontawesome.com/a41831aa8e.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <script
+      src="https://kit.fontawesome.com/a41831aa8e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/products.js"></script>
     <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-    crossorigin="anonymous"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>🌶️Spice Route</title>
-</head>
-<body onLoad="showSlides();">
+  </head>
+  <body onLoad="showSlides();">
     <nav class="navbar">
-        <div class="navbar__container">
-            <!-- <i class="fa-solid fa-pepper-hot"></i>-->
-          <a href="home.html" id="navbar__logo">SPICE ROUTE</a>
-          <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-          <ul class="navbar__menu">
-            <li class="navbar__item">
-           <!---->   <a href="home.html" class="navbar__links">HOME</a>
-            </li>
-            <li class="navbar__item">
-              <a href="aboutus.html" class="navbar__links">ABOUT US</a>
-            </li>
-            <li class="navbar__item">
-              <a href="products.html" class="selected-item">PRODUCTS</a>
-            </li>
-            <li class="navbar__item">
-              <a href="contactus.html" class="navbar__links">CONTACT US</a>
-            </li>
-            <li class="navbar__btn">
-              <a href="/index.html" class="button">SIGN OUT</a>
-            </li>
-          </ul>
+      <div class="navbar__container">
+        <!-- <i class="fa-solid fa-pepper-hot"></i>-->
+        <a href="home.html" id="navbar__logo">SPICE ROUTE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      </nav>
-      <div class="main">
-        <div class="main__container">
-          <div class="main__content">
-            <div class="slideshow-container">
-              <div class="mySlides fade">
-                <div class="numbertext">1/ 6</div>
-                <img src="../images/mixed-savoury.jpg" style="width:100%">
-                <div class="text">
-                  <h2>Mixed Savoury Platter</h2>
-                <p>A Collection of all your favorite savouries.Perfect for parties.</p>
-                </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <!---->
+            <a href="home.html" class="navbar__links">HOME</a>
+          </li>
+          <li class="navbar__item">
+            <a href="aboutus.html" class="navbar__links">ABOUT US</a>
+          </li>
+          <li class="navbar__item">
+            <a href="products.html" class="selected-item">PRODUCTS</a>
+          </li>
+          <li class="navbar__item">
+            <a href="contactus.html" class="navbar__links">CONTACT US</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/index.html" class="button">SIGN OUT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1/ 6</div>
+              <img src="../images/mixed-savoury.jpg" style="width: 100%" />
+              <div class="text">
+                <h2>Mixed Savoury Platter</h2>
+                <p>
+                  A Collection of all your favorite savouries.Perfect for
+                  parties.Mix and match from the following options.
+                </p>
+                <table>
+                  <tr>
+                    <td>
+                      <ul>
+                        <li>Cocktail Beef Kebabs</li>
+                        <li>Sticky Buffalo Wings</li>
+                        <li>Spinach and Cheddar Tartlets</li>
+                        <li>Biltong Bread Bites</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Mini Chicken Pies</li>
+                        <li>Veg/Non veg Samosas</li>
+                        <li>Spring Rolls</li>
+                        <li>Falafel</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
               </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 6</div>
-                <img src="../images/delish-091621-samosas-04-jg-1632847515.jpg" style="width:100%">
-                <div class="text"><h2>Samosas</h2>
-                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
-              </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 6</div>
-                <img src="../images/CheesyMonkeyBread.jpg" style="width:100%">
-                <div class="text"><h2>Cheesy Monkey Bread</h2>
-                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">4 / 6</div>
-                <img src="../images/Savory_Snacks.jpg" style="width:100%">
-                <div class="text"><h2>Savoury Tidbits</h2>
-                  <p>Bite size savoury snacks.</p></div>
-              </div>
-              
-              <div class="mySlides fade">
-                <div class="numbertext">5/ 6</div>
-                <img src="../images/Turmeric_Powder_1024x.webp" style="width:100%">
-                <div class="text"><h2>Organic Turmeric Powder</h2>
-                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">6/ 6</div>
-                <img src="../images/Homemade-Taco-Seasoning-Spice-Mix.jpg" style="width:100%">
-                <div class="text"><h2>Taco-Seasoning-Spice-Mix</h2>
-                  <p>A Collection of all your favorite savouries.Perfect for parties.</p></div>
-              </div>
-              
-              
-              <a class="prev" onclick="plusSlides(-1)">❮</a>
-              <a class="next" onclick="plusSlides(1)">❯</a>
-              
-              </div>
-              <br>
-              
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-                <span class="dot" onclick="currentSlide(4)"></span> 
-                <span class="dot" onclick="currentSlide(5)"></span> 
-                <span class="dot" onclick="currentSlide(6)"></span> 
-              </div>
+            </div>
 
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 6</div>
+              <img
+                src="../images/delish-091621-samosas-04-jg-1632847515.jpg"
+                style="width: 100%"
+              />
+              <div class="text">
+                <h2>Samosas</h2>
+                <p>
+                  Crispy Flaky fried or baked turnovers with a savory filling,
+                  including ingredients such as spiced potatoes, onions, and
+                  peas.
+                </p>
+              </div>
+            </div>
 
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 6</div>
+              <img src="../images/CheesyMonkeyBread.jpg" style="width: 100%" />
+              <div class="text">
+                <h2>Cheesy Monkey Bread</h2>
+                <p>
+                  A deliciously cheesy savoury monkey bread made with pizza
+                  dough in a skillet pan. The dough is filled with cheese, herbs
+                  and garlic and baked to perfection.
+                </p>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 6</div>
+              <img src="../images/Savory_Snacks.jpg" style="width: 100%" />
+              <div class="text">
+                <h2>Savoury Tidbits</h2>
+                <p>Bite size savoury snacks.Its a favorite among kids.</p>
+                <ul>
+                  <li>Cheese crackers</li>
+                  <li>Pretzels</li>
+                  <li>Tater tots</li>
+                  <li>Potato CHIPS</li>
+                </ul>
+              </div>
+            </div>
 
-           </div>
-           </div>
-           </div>
+            <div class="mySlides fade">
+              <div class="numbertext">5/ 6</div>
+              <img
+                src="../images/Turmeric_Powder_1024x.webp"
+                style="width: 100%"
+              />
+              <div class="text">
+                <h2>Organic Turmeric Powder</h2>
+                <p>
+                  Add some spice to your day with our organic turmeric root
+                  powder. This easily recognizable, vibrant yellow-orange powder
+                  has long been a staple in South Asian and Middle Eastern
+                  cuisines. Commonly used for curries, the root vegetable is
+                  also great in soups and stews, or sprinkled over some
+                  scrambled eggs..
+                </p>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">6/ 6</div>
+              <img
+                src="../images/Homemade-Taco-Seasoning-Spice-Mix.jpg"
+                style="width: 100%"
+              />
+              <div class="text">
+                <h2>Taco-Seasoning-Spice-Mix</h2>
+                <p>
+                  Our homemade taco seasoning recipe made with chili powder,
+                  cumin, paprika, and a few other easy-to-find spices is cheaper
+                  than packaged versions!
+                </p>
+              </div>
+            </div>
 
-    
-    
-    </body>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          <br />
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Copyright 2022 @ Spice route</p>
+      </footer>
+    </div>
+  </body>
 </html>
